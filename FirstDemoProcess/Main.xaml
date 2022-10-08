@@ -1,0 +1,145 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1820,1308" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="526,1243" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="484,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;First message&quot;]" />
+      <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="information" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello UiPath&quot;]" />
+    </Sequence>
+    <If Condition="True" sap:VirtualizedContainerService.HintSize="484,270" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: How to Create an Automation | Free Online Course | Alison - Google Chrome" sap:VirtualizedContainerService.HintSize="484,735" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="985362d4-bf01-4848-a412-05a157f25f29" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,446" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'New Tab'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="985362d4-bf01-4848-a412-05a157f25f29" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1220, 8, 36, 35" ElementType="Button" FriendlyName="'New Tab'" FullSelectorArgument="&lt;ctrl name='How to Create an Automation | Free Online Course | Alison - Goog*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='New Tab' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='How to Create an Automation | Free Online Course | Alison - Goog*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='New Tab' role='push button' automationid='' check:text='New Tab' /&gt;" Guid="d73e3b01-d8f5-408c-b14a-429379a73bc1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAYAAAB9qAq4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFVSURBVFhH7ZjraoNAEEbzsvlRyGMILeQ1c9O0eYVNPunIquO636ySaXHhEGTX8TAXhey2VbqC87W7NT/BM/9L8Fp/h8vtHs7XpuV0qVvkGns4o91rJUtQpERoDpHVYrEkBZENRmwI7i3N6KQgAmsPtVAiqQouKSdYJUeCa8gJFsmRYEnPzYHYw+fN0RPE5GmBl4Sd7p4gm73q8xiqr6O6NwWbxU7Q0nv7j0OLtpeC6cVO0FJeqyBT5k7QMhxWQabMf0dQCxSDgRChOXIGJ5ZIsY7g66wWIyaWSLH1oIZJ0P1rxv2LGrBlbj91GQMRw5QX9AQtZWZhygt6gsAyLLmw2QMjQUsv5sL0njASBGtIWuSAKgiWlLTKgUlBgMAlPYl7S+RAUlDA5DGiOMtO6xRZggKyIbKxsFxjrzRjQyjBd+BfsG4eob7rmx7w/w/r76/b5VwwhCeQEm++zdI6+QAAAABJRU5ErkJggg==" InformativeScreenshot="80d58f25e3581f5107303285501f3909.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='How to Create an Automation | Free Online Course | Alison - Goog*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="985362d4-bf01-4848-a412-05a157f25f29" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="247, 8, 256, 35" ElementType="TabPage" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='New Tab - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='How to Create an Automation | Free Online Course | Alison' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='New Tab - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='How to Create an Automation | Free Online Course | Alison' role='page tab' automationid='' check:fulltext='Close' /&gt;" Guid="5cde32a1-86fa-4bf1-ba81-376ee686d0ae" ImageBase64="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" InformativeScreenshot="0f485ea73d2cbfae9dc1b7895cbd156c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="5d212d63a55c46345896c24a4d5d8a76.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='How to Create an Automation | Free Online Course | Alison - Goog*' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
