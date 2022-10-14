@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OtherActivities" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="922,639" sap2010:WorkflowViewState.IdRef="OtherActivities_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OtherActivities" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="922,884" sap2010:WorkflowViewState.IdRef="OtherActivities_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
       <x:String>System.Activities</x:String>
@@ -60,7 +60,7 @@
       <AssemblyReference>System.Memory</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OtherActivities" sap:VirtualizedContainerService.HintSize="476,537" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OtherActivities" sap:VirtualizedContainerService.HintSize="476,819" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -94,5 +94,7 @@
         </ActivityAction>
       </ueab:ExcelProcessScopeX.Body>
     </ueab:ExcelProcessScopeX>
+    <ui:ReadCell Cell="{x:Null}" Result="{x:Null}" SheetName="{x:Null}" WorkbookPath="{x:Null}" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="434,87" sap2010:WorkflowViewState.IdRef="ReadCell_1" />
+    <ui:WriteCell Cell="{x:Null}" SheetName="{x:Null}" Text="{x:Null}" WorkbookPath="{x:Null}" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteCell_1" />
   </Sequence>
 </Activity>
