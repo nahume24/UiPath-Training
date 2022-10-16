@@ -1,6 +1,6 @@
 {
-  "name": "Weather Robot",
-  "description": "Blank Process",
+  "name": "DemoProcess",
+  "description": " Demostrate the functionality of UiPath Studio through the data extraction components",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.3",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "2fd44b86-db1f-4bb2-87e9-e7867c461a4e",
+      "uniqueId": "680a448d-e04e-4dab-9136-6a94c683ae58",
       "input": [],
       "output": []
     }
